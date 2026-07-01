@@ -1,0 +1,292 @@
+<!DOCTYPE html>
+<html lang="hi">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <title>Gokul Dham Ladies Tailor | Perfect Fitting & Designs</title>
+    
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&family=Great+Vibes&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    
+    <style>
+        body {
+            font-family: 'Poppins', sans-serif;
+            background-color: #f7f9fa;
+        }
+        .navbar-brand {
+            font-weight: 700;
+            color: #0c6170 !important; /* Peacock Teal Color */
+        }
+        .bg-teal-dark {
+            background-color: #053941;
+        }
+        .text-gold {
+            color: #dfb15b; /* Elegant Gold */
+        }
+        
+        /* Royal Peacock Hero Section */
+        .hero {
+            background: linear-gradient(rgba(4, 43, 49, 0.6), rgba(2, 28, 32, 0.8)), 
+                        url('https://images.unsplash.com/photo-1590075865003-e48277adc558?auto=format&fit=crop&q=80&w=1200') no-repeat center center/cover;
+            color: white;
+            padding: 140px 0;
+            text-align: center;
+            border-bottom: 5px solid #dfb15b; /* Gold Border at bottom */
+        }
+        .hero h1 {
+            font-size: 3.8rem;
+            letter-spacing: 2px;
+            text-shadow: 2px 2px 10px rgba(0,0,0,0.5);
+        }
+        .hero-tagline {
+            font-size: 1.5rem;
+            font-weight: 600;
+            text-shadow: 1px 1px 5px rgba(0,0,0,0.5);
+        }
+        
+        /* Service Cards */
+        .service-card {
+            border: none;
+            border-radius: 15px;
+            transition: transform 0.3s ease;
+            box-shadow: 0 4px 15px rgba(0,0,0,0.05);
+            border-top: 4px solid #0c6170;
+        }
+        .service-card:hover {
+            transform: translateY(-10px);
+        }
+        .service-icon {
+            font-size: 2.5rem;
+            color: #0c6170;
+            margin-bottom: 15px;
+        }
+        
+        /* Custom Buttons */
+        .btn-custom {
+            background-color: #0c6170;
+            color: white;
+            border-radius: 30px;
+            padding: 10px 25px;
+            font-weight: 600;
+            border: none;
+        }
+        .btn-custom:hover {
+            background-color: #053941;
+            color: white;
+        }
+        .btn-gold {
+            background: linear-gradient(135deg, #dfb15b, #bfa054);
+            color: #021c20 !important;
+            font-weight: 700;
+        }
+        .btn-gold:hover {
+            background: linear-gradient(135deg, #bfa054, #dfb15b);
+            box-shadow: 0 4px 15px rgba(223, 177, 91, 0.4);
+        }
+    </style>
+</head>
+<body>
+
+    <nav class="navbar navbar-expand-lg navbar-light bg-white shadow-sm sticky-top">
+        <div class="container">
+            <a class="navbar-brand" href="#"><i class="fa-solid fa-scissors me-2" style="color: #dfb15b;"></i>Gokul Dham Ladies Tailor</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto align-items-center">
+                    <li class="nav-item"><a class="nav-link active" href="index.html">Home</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#services">Services</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#pricing">Price List</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#contact">Contact Us</a></li>
+                    <li class="nav-item dropdown ms-lg-3">
+                        <a class="btn btn-custom btn-sm dropdown-toggle" href="#" id="whatsappDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                            <i class="fab fa-whatsapp me-1"></i> Chat on WhatsApp
+                        </a>
+                        <ul class="dropdown-menu dropdown-menu-end shadow border-0" aria-labelledby="whatsappDropdown">
+                            <li><a class="dropdown-item py-2" href="https://wa.me/919879440913" target="_blank"><i class="fa-solid fa-user text-muted me-2"></i>परेशभाई: +91 98794 40913</a></li>
+                            <li><a class="dropdown-item py-2" href="https://wa.me/919909262584" target="_blank"><i class="fa-solid fa-user text-muted me-2"></i>विजयभाई: +91 99092 62584</a></li>
+                        </ul>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <header id="home" class="hero d-flex align-items-center">
+        <div class="container">
+            <h1 class="fw-bold mb-2">GOKUL DHAM LADIES TAILOR</h1>
+            <p class="hero-tagline text-gold mb-3">आपकी पसंद, हमारा हुनर — बेहतरीन डिज़ाइन और परफेक्ट फिटिंग!</p>
+            <p class="lead text-white-50 mb-4 fs-5">एक्सपीरियंस कीजिये प्रीमियम और कस्टमाइज्ड लेडीज टेलरिंग का एक नया रूप।</p>
+            <div class="d-flex justify-content-center gap-3">
+                <a href="designs.html" class="btn btn-outline-light btn-lg px-4 rounded-pill">View Designs</a>
+                <a href="#contact" class="btn btn-gold btn-lg px-4 rounded-pill">Book Appointment</a>
+            </div>
+        </div>
+    </header>
+
+    <section id="services" class="py-5">
+        <div class="container">
+            <div class="text-center mb-5">
+                <h2 class="fw-bold" style="color: #0c6170;">हमारी सेवाएँ (Our Services)</h2>
+                <p class="text-muted">हम हर प्रकार के लेडीज कपड़ों की सिलाई लेटेस्ट और ट्रेंडी डिज़ाइन्स में करते हैं</p>
+            </div>
+            <div class="row g-4">
+                <div class="col-md-4">
+                    <div class="card service-card p-4 text-center h-100">
+                        <div class="service-icon"><i class="fa-solid fa-shirt"></i></div>
+                        <h4 class="fw-bold">Designer Blouse</h4>
+                        <p class="text-muted">कटोरी ब्लाउज, प्रिंसेस कट, लहँगा ब्लाउज और बैकलेस डिज़ाइन्स एकदम परफेक्ट फिटिंग के साथ।</p>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="card service-card p-4 text-center h-100">
+                        <div class="service-icon"><i class="fa-solid fa-scissors"></i></div>
+                        <h4 class="fw-bold">Punjabi Dress & Kurti</h4>
+                        <p class="text-muted">सिंपल सूट, पटियाला ड्रेस, अनारकली सूट, और प्लाजो सेट्स की लेटेस्ट सिलाई।</p>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="card service-card p-4 text-center h-100">
+                        <div class="service-icon"><i class="fa-solid fa-wand-magic-sparkles"></i></div>
+                        <h4 class="fw-bold">Alteration & Fitting</h4>
+                        <p class="text-muted">क्या आपके रेडीमेड कपड़े ढीले हैं? हम उन्हें आपके नाप के अनुसार परफेक्ट फिट बना देंगे।</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="pricing" class="py-5 bg-white">
+        <div class="container">
+            <div class="text-center mb-5">
+                <h2 class="fw-bold" style="color: #0c6170;">रेट लिस्ट (Estimated Price List)</h2>
+                <p class="text-muted">किफायती दाम में सबसे बेहतरीन और प्रीमियम सिलाई</p>
+            </div>
+            <div class="row justify-content-center">
+                <div class="col-md-8">
+                    <div class="table-responsive shadow-sm rounded">
+                        <table class="table table-hover align-middle mb-0">
+                            <thead class="bg-teal-dark text-white">
+                                <tr>
+                                    <th scope="col" class="py-3 ps-4 text-gold">कपड़े का प्रकार (Dress Type)</th>
+                                    <th scope="col" class="py-3 text-end pe-4 text-gold">शुरुआती कीमत (Starting Price)</th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                <tr>
+                                    <td class="py-3 ps-4 fw-semibold">Simple Blouse</td>
+                                    <td class="py-3 text-end pe-4 fw-bold" style="color: #0c6170;">₹250</td>
+                                </tr>
+                                <tr>
+                                    <td class="py-3 ps-4 fw-semibold">Designer/Lining Blouse</td>
+                                    <td class="py-3 text-end pe-4 fw-bold" style="color: #0c6170;">₹450</td>
+                                </tr>
+                                <tr>
+                                    <td class="py-3 ps-4 fw-semibold">Simple Punjabi Suit</td>
+                                    <td class="py-3 text-end pe-4 fw-bold" style="color: #0c6170;">₹350</td>
+                                </tr>
+                                <tr>
+                                    <td class="py-3 ps-4 fw-semibold">Plazzo / Pant Suit</td>
+                                    <td class="py-3 text-end pe-4 fw-bold" style="color: #0c6170;">₹500</td>
+                                </tr>
+                                <tr>
+                                    <td class="py-3 ps-4 fw-semibold">Lehenga Stitching</td>
+                                    <td class="py-3 text-end pe-4 fw-bold" style="color: #0c6170;">₹1200+</td>
+                                </tr>
+                            </tbody>
+                        </table>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="contact" class="py-5">
+        <div class="container">
+            <div class="row g-5">
+                <div class="col-md-6 d-flex flex-column justify-content-center">
+                    <h2 class="fw-bold mb-4" style="color: #0c6170;">हमसे संपर्क करें</h2>
+                    <p class="mb-3"><i class="fa-solid fa-location-dot me-2 text-gold"></i> शॉप नंबर 4, पार्श्वनाथ टाउनशिप, 123 बस स्टैंड के पास</p>
+                    
+                    <p class="mb-1 fw-bold text-dark"><i class="fa-solid fa-phone me-2 text-gold"></i> संपर्क सूत्र:</p>
+                    <p class="mb-1 ms-4"><i class="fa-solid fa-user-check me-2 text-muted"></i> परेशभाई: +91 98794 40913</p>
+                    <p class="mb-3 ms-4"><i class="fa-solid fa-user-check me-2 text-muted"></i> विजयभाई: +91 99092 62584</p>
+                    
+                    <p class="mb-4"><i class="fa-solid fa-clock me-2 text-gold"></i> सुबह 10:00 बजे से रात 8:00 बजे तक (सोमवार बंद)</p>
+                    <div class="p-3 bg-white border-start border-4 border-warning rounded shadow-sm">
+                        <h5 class="fw-bold text-dark mb-2"><i class="fa-solid fa-gift text-gold me-2"></i>स्पेशल ऑफर!</h5>
+                        <p class="mb-0 text-muted">पहली बार सिलाई करवाने पर **10% की सीधी छूट** पाएं।</p>
+                    </div>
+                </div>
+                <div class="col-md-6">
+                    <div class="card p-4 shadow-sm border-0 rounded-4 bg-white">
+                        <h4 class="fw-bold mb-4 text-center" style="color: #0c6170;">अपॉइंटमेंट बुक करें</h4>
+                        <form id="appointmentForm">
+                            <div class="mb-3">
+                                <label class="form-label">आपका नाम (Name)</label>
+                                <input type="text" id="custName" class="form-control" placeholder="अपना नाम लिखें" required>
+                            </div>
+                            <div class="mb-3">
+                                <label class="form-label">मोबाइल नंबर (Mobile No.)</label>
+                                <input type="tel" id="custPhone" class="form-control" placeholder="अपना phone नंबर" required>
+                            </div>
+                            <div class="mb-3">
+                                <label class="form-label">सर्विस चुनें (Select Service)</label>
+                                <select id="selectedService" class="form-select">
+                                    <option>Blouse Stitching</option>
+                                    <option>Suit / Kurti Stitching</option>
+                                    <option>Lehenga / Gown</option>
+                                    <option>Alteration</option>
+                                </select>
+                            </div>
+                            <div class="mb-3">
+                                <label class="form-label">किससे संपर्क करना चाहते हैं? (Select Contact)</label>
+                                <select id="selectContact" class="form-select">
+                                    <option value="919879440913">परेशभाई (Pareshbhai)</option>
+                                    <option value="919909262584">विजयभाई (Vijaybhai)</option>
+                                </select>
+                            </div>
+                            <button type="submit" class="btn btn-custom w-100 mt-2">Submit Request</button>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer class="bg-dark text-white text-center py-4">
+        <p class="mb-0">&copy; 2026 Gokul Dham Ladies Tailor. Designed with <i class="fa-solid fa-heart text-danger"></i> by a Front-End Developer.</p>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+
+    <script>
+        document.getElementById('appointmentForm').addEventListener('submit', function(e) {
+            e.preventDefault();
+
+            // फॉर्म वैल्यूज
+            const name = document.getElementById('custName').value;
+            const phone = document.getElementById('custPhone').value;
+            const service = document.getElementById('selectedService').value;
+            const targetNumber = document.getElementById('selectContact').value;
+            const contactName = document.getElementById('selectContact').options[document.getElementById('selectContact').selectedIndex].text;
+
+            // व्हाट्सएप मैसेज फॉर्मेट
+            const message = `*नया सिलाई अपॉइंटमेंट अनुरोध*\n\n` +
+                            `👤 *ग्राहक का नाम:* ${name}\n` +
+                            `📞 *मोबाइल नंबर:* ${phone}\n` +
+                            `✂️ *सर्विस टाइप:* ${service}\n` +
+                            `👋 *टू:* ${contactName}`;
+
+            const encodedMessage = encodeURIComponent(message);
+            const whatsappUrl = `https://api.whatsapp.com/send?phone=${targetNumber}&text=${encodedMessage}`;
+
+            // व्हाट्सएप पर रीडायरेक्ट करें
+            window.open(whatsappUrl, '_blank');
+        });
+    </script>
+</body>
+</html>
